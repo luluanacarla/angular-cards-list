@@ -1,0 +1,17 @@
+<div class="main-content">
+  <header >
+    <h2>Welcome, user!</h2>
+    <p>Here you will find the list of the animals available for adoption :)</p>
+    <small>Click on the <strong>UPDATE</strong> button to update the list, if you want to!</small>
+  </header>
+  <div class="button-container">
+    <button (click)="getAnimals(true)">
+      Update
+    </button>
+  </div>
+  <div *ngIf="animals?.length" class="cards">
+    <div class="card-wrap" *ngFor="let animal of animals">
+      <app-card [name]="animal.name" [type]="animal.type" [imageUrl]="animal.avatar"></app-card>
+    </div>
+  
+</div>

@@ -1,0 +1,35 @@
+.main-content {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-wrap {
+  min-width: 25%;
+  flex: 0 1 calc(25% - 1em);
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  border : none;
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: 0.2rem;
+  width: 30%;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+button:hover {
+  background-color:var(--darkGreen);
+}
+
+@media screen and (max-width: 40em) {
+  .card-wrap {
+      flex: 0 1 calc(50% - 1em);
+  }
+}

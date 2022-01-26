@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --white: #ffffff;
+  --green: #27aa5d;
+  --darkGreen: #209450;
+  --grey: #A9A9A9;
+}
+body {
+  background-color: #F0F0F0	;
+  font-family: 'lato', 'arial', sans-serif;
+}
+
+@font-face {
+  font-family: lato;
+  src: url(assets/fonts/Lato-Regular.ttf) format("opentype");
+}

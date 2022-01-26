@@ -1,0 +1,17 @@
+.card {
+  background-color: var(--white);
+  border-radius: 0.8rem;
+}
+
+.card img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.card p {
+  color: var(--grey)
+}
+
+.container {
+  padding: 1rem
+}
